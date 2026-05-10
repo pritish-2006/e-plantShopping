@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.landing-page {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  width: 80%;
+  max-width: 700px;
+}
+
+.landing-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.landing-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.get-started-button {
+  margin-top: 25px;
+  padding: 14px 28px;
+  background-color: #2e8b57;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.get-started-button:hover {
+  background-color: #246b45;
+}
+
+.about-us-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.8;
+  color: #333;
+}
+
+.about-us-container h1 {
+  color: #2e8b57;
+}
